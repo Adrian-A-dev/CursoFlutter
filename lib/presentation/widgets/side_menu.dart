@@ -23,12 +23,12 @@ class _SideMenuState extends State<SideMenu> {
       children: const [
         NavigationDestination(
           icon: Icon(Icons.add), 
-          label: Text('data') 'Home screen',
+          label: Text('Home screen'),
         ),
 
         NavigationDestination(
           icon: Icon(Icons.add_shopping_cart_rounded), 
-          label:'Otra pantalla',
+          label:Text('Otra pantalla'),
           ),
       ]
     );
