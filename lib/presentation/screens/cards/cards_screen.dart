@@ -200,7 +200,7 @@ class _CardType4 extends StatelessWidget {
       child: Stack(
         children: [
 
-          Image.network('https://picsum.photos/id/${elevation.toInt()}/600/350',
+          Image.network('https://picsum.photos/id/${elevation.toInt()}/600/350.jpg',
           height: 350,
           fit: BoxFit.cover,
           ),
