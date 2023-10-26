@@ -1,10 +1,15 @@
+import 'package:cinemapedia/config/router/app_router.dart';
+//import 'package:cinemapedia/config/theme/app_theme.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter/material.dart';
-import 'package:widget_app/config/router/app_router.dart';
-import 'package:widget_app/config/theme/app_theme.dart';
 
+  
+Future<void> main() async {
 
-void main() {
+await dotenv.load(fileName: '.env');
+
   runApp(const MainApp());
+
 }
 
 class MainApp extends StatelessWidget {
@@ -12,12 +17,10 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp.router(
-      title: 'Flutter Widgets',
+    return  MaterialApp.router(
       routerConfig: appRouter,
       debugShowCheckedModeBanner: false,
-      theme: AppTheme(selectedColor: 4).getTheme(),
-     
+      
     );
   }
 }

@@ -1,6 +1,6 @@
 {
-    "name": "widget_app",
-    "short_name": "widget_app",
+    "name": "cinemapedia",
+    "short_name": "cinemapedia",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
