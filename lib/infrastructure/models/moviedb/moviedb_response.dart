@@ -1,6 +1,4 @@
-
-import 'package:cinemapedia/infrastructure/models/moviedb/moviedb_response.dart';
-
+import 'movie_moviedb.dart';
 
 class MovieDbResponse {
     MovieDbResponse({
